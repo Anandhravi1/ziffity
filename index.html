@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ziffity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">     
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div>
+        <div class="container navigation ">
+                <nav class="navbar navbar-expand-sm bgcolor-primary justify-content-end img-bottom_line">
+                    <div class="close-btn"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div>
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sofa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Table</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Couches</a>
+                      </li>
+                    </ul>
+                  
+                  </nav>
+            </div>
+   
+    <header class="container">
+      <div class="head">
+        <div class="icon-search">
+        <div class="logo">
+             <a href="#"><img src="images/logo.png" alt="logo"/></a>
+             <div class="menu">
+                <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                <div><span>menu</span></div>
+            </div>
+        </div>
+        
+        <div class="search-container clearfix">
+            <input type="text" placeholder="Search..."/>
+            <button class="button-search" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="mob-account">
+            <div class="mob-account2">
+            <span>My Account</span>
+        </div>
+        </div>
+        </div>
+        <div class="accounts">
+            <div class="user-account">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <div><p>Categories</p></div>
+            </div>
+            <div class="user-account log "  data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <div><p>Account</p></div>
+            </div>
+            <div class="user-account basket">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                   <div><p>Basket</p></div>
+                   <span class="count">1</span>
+                   <div class="add-to-cart">
+                       <div class="cart-item">
+                            <div class="cart-img">
+                                <div class="item">
+                                <img src="images/awesome-product.jpg" alt="product"/>
+                                </div>
+                            </div>
+                            <div class="product-name">
+                                <h4>Awesome product</h4>
+                                <h5>249,00 &euro;</h5>
+                            </div>
+                        </div>
+                       <div class="cart-total clearfix">
+                            <p><strong>Total:</strong></p>
+                            <span style="color:#d1202d;">249,00 &euro;</span>
+                       </div>
+                       <div class="cart-shopping">
+                           <button class="button button-primary">Shopping basket</button>
+                       </div>
+                   </div>
+            </div>
+        </div>        
+      </div>
+    </header>
+
+    <section class="slider-section container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner img-top_line img-bottom_line">
+                      <div class="carousel-item active">
+                        
+                        <img src="images/slide-4.jpeg" alt="slide1">                        
+                        <div class="slider-panel text-uppercase">
+                            <h4>a wonderful caption description</h4>
+                            <h1>a magnificent headline</h1>
+                            <a href="#" class="button">read more</a>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/slide-4.jpeg" alt="slide-2">
+                        <div class="slider-panel text-uppercase">
+                            <h4>a wonderful caption description</h4>
+                            <h1>a magnificent headline</h1>
+                            <a href="#" class="button">read more</a>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/slide-4.jpeg" alt="slide-3">
+                        <div class="slider-panel text-uppercase">
+                            <h4>a wonderful caption description</h4>
+                            <h1>a magnificent headline</h1>
+                            <a href="#" class="button">read more</a>
+                      </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+                
+                  
+    </section>
+    <section class="container topSeller-section">
+        <div class="sub-title text-center">
+            <h2 class="text-uppercase">our topseller</h2>
+             <span class="title-box"></span>
+        </div>
+        <div class="row product-list">           
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                 <div class="item img-bottom_line">
+                    <img src="images/awesome-product.jpg" alt="product"/>
+                    <div class="percent">50%</div>
+                 </div>
+                 <div class="product-infor text-center">
+                    <div class="product-name">Awesome product</div>
+                    <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                      <span class="original-price">only 249,00 &euro;</span>
+                 </div>
+                 </div>
+
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                  <div class="item img-bottom_line">
+                     <img src="images/awesome-product.jpg" alt="product"/>
+                     <div class="percent">50%</div>
+                  </div>
+                  <div class="product-infor text-center">
+                      <div class="product-name">Awesome product</div>
+                      <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                        <span class="original-price">only 249,00 &euro;</span>
+                   </div>
+                   </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info ">
+                    <div class="item img-bottom_line">
+                       <img src="images/awesome-product.jpg" alt="product"/>
+                       <div class="percent">50%</div>
+                    </div>
+                    <div class="product-infor text-center">
+                        <div class="product-name">Awesome product</div>
+                        <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                          <span class="original-price">only 249,00 &euro;</span>
+                     </div>
+                     </div>
+                  </div>              
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                    <div class="item img-bottom_line">
+                       <img src="images/awesome-product.jpg" alt="product"/>
+                       <div class="percent">50%</div>
+                    </div>
+                    <div class="product-infor text-center">
+                        <div class="product-name">Awesome product</div>
+                        <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                             <span class="original-price">only 249,00 &euro;</span>
+                        </div>
+                     </div>
+                  </div>              
+            </div>
+          
+        </div>
+
+    </section>
+    <section class="container service-section">
+        <div class="sub-title text-center">
+            <h2 class="text-uppercase">our services</h2>
+             <span class="title-box"></span>
+        </div>
+        <div class="row service-type">
+            <div class="col-md-4">
+                <div class="card service-demo">              
+                        <div class="card-body service service-one text-center">
+                        <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+                        <div class="delivery-name"><h3>Fast delivery</h3></div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet,consetetur sadipscing slitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo due dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame.</p>
+                        </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card service-demo">
+                <div class="card-body service service-two text-center">
+                    <i class="fa fa-wrench fa-3x" aria-hidden="true"></i>
+                    <div class="delivery-name"><h3>Free assembly</h3></div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet,consetetur sadipscing slitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo due dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame.</p>
+                  </div>
+                </div>
+            </div>
+             </div>
+             <div class="col-md-4">
+                 <div class="card service-demo">
+                <div class="card-body service service-three text-center">
+                    <i class="fa fa-shopping-bag fa-3x"  aria-hidden="true"></i>
+                    <div class="delivery-name"><h3>Cheap</h3></div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet,consetetur sadipscing slitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo due dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame.</p>
+                  </div>
+                </div>
+            </div>
+             </div>
+        </div>
+    </section>
+    <section class="container latest-product">
+        <div class="sub-title text-center">
+            <h2 class="text-uppercase">our latest products</h2>
+             <span class="title-box"></span>
+        </div>
+        <div class="row product-list">           
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                 <div class="item img-bottom_line">
+                    <img src="images/awesome-product.jpg" alt="product"/>
+                    <div class="percent">50%</div>
+                 </div>
+                 <div class="product-infor text-center">
+                    <div class="product-name">Awesome product</div>
+                    <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                      <span class="original-price">only 249,00 &euro;</span>
+                 </div>
+                 </div>
+
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                  <div class="item img-bottom_line">
+                     <img src="images/awesome-product.jpg" alt="product"/>
+                     <div class="percent">50%</div>
+                  </div>
+                  <div class="product-infor text-center">
+                      <div class="product-name">Awesome product</div>
+                      <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                        <span class="original-price">only 249,00 &euro;</span>
+                   </div>
+                   </div>
+                </div>              
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info ">
+                    <div class="item img-bottom_line">
+                       <img src="images/awesome-product.jpg" alt="product"/>
+                       <div class="percent">50%</div>
+                    </div>
+                    <div class="product-infor text-center">
+                        <div class="product-name">Awesome product</div>
+                        <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                          <span class="original-price">only 249,00 &euro;</span>
+                     </div>
+                     </div>
+                  </div>              
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="item-info">
+                    <div class="item img-bottom_line">
+                       <img src="images/awesome-product.jpg" alt="product"/>
+                       <div class="percent">50%</div>
+                    </div>
+                    <div class="product-infor text-center">
+                        <div class="product-name">Awesome product</div>
+                        <div><strike class="del-price"><small>499,99 &euro;</small></strike>
+                             <span class="original-price">only 249,00 &euro;</span>
+                        </div>
+                     </div>
+                  </div>              
+            </div>          
+        </div>
+    </section>
+    <footer class="container footer-section">
+          <div class="row">
+              <div class="col-lg-4 about">
+                    <h5>About this company</h5>
+                    <p>Lorem ipsum dolore sit amet, consetetur sadipscing elitr, sed dim nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, set diam voluptua.</p>
+                    <div class="social-media">
+                        <ul>
+                          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>                          
+                          <li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                    <div class="dummy-line"></div>
+              </div>
+              <div class="col-lg-4 service">
+                  <h5>Service</h5>
+                      <div class="col-6 left-part">
+                          
+                          <ul>
+                            <li>Contact Us</li>
+                            <li>Bonus Card</li>
+                            <li>Free Vouchers</li>
+                            <li>Route planner</li>
+                          </ul>
+                      </div>
+                      <div class="col-6 right-part">
+                          <ul>
+                              <li>Sitemap</li>
+                              <li>Blog</li>
+                              <li>Fashion tips</li>
+                              <li>Room planner</li>
+                            </ul>
+                      </div>
+                     
+              </div>
+              <div class="col-lg-4 information">
+                  <h5>Information</h5>
+                  <div class="col-6 left-part">
+                         
+                         <ul>
+                           <li>Some Information</li>
+                           <li>Some Information</li>
+                           <li>Some Information</li>
+                           <li>Some Information</li>
+                         </ul>
+                  </div>
+                  <div class="col-6 right-part">
+                      <ul>
+                          <li>Some Information</li>
+                          <li>Some Information</li>
+                          <li>Some Information</li>
+                          <li>Some Information</li>
+                        </ul>
+                  </div>                 
+
+              </div>
+              <div class="col-sm-12 copyright">
+                  <p>&copy; Copyright by your Company 2017</p>
+              </div>
+
+          </div>
+    </footer>
+
+    <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label><strong>E-mail</strong></label>
+                          <input type="email" value="" class="form-control" placeholder="Please enter your e-mail address"/>
+                      </div>
+                      <div class="form-group">
+                            <label><strong>Password</strong></label>
+                            <input type="password" value="" class="form-control" placeholder="Please enter your password"/>
+                        </div>
+                        <div>
+                            <input type="checkbox" value=""/> Remember me
+                        </div>                        
+                  </form>
+                  <p><span style="color:#d1202d;">No account? Register here</span> or did you <span style="color:#d1202d;">forgot your password?</span></p>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">                
+                  <button type="button" class="button closed" data-dismiss="modal">Close</button>
+                  <button type="button" class="button button-primary" data-dismiss="modal">Login</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="site-layer"></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>  
+<script src="js/custom.js"></script>
+</body>
+</html>
